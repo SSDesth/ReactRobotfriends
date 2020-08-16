@@ -1,0 +1,19 @@
+@font-face{
+	font-family: 'Sega';
+	font-style: normal;
+	font-weight: normal;
+	src:url('SEGA.TTF');
+}
+h1{
+	font-family: Sega;
+	font-weight: 200;
+	color: #0ccac4;
+	text-shadow: 0 0 3px #0A8AFF, 0 0 5px #4F90D8;
+	text-decoration: underline;
+	transition: 500ms;
+}
+
+h1:hover{
+	transform: scale(1.2);
+
+}
